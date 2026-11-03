@@ -1,0 +1,7 @@
+# POC attribution study dependencies (on top of the repo's requirements.txt)
+datasets
+pyarrow
+huggingface_hub
+pandas
+litellm
+python-dotenv

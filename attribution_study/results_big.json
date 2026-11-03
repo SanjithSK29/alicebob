@@ -1,0 +1,144 @@
+{
+  "episodes": [
+    {
+      "run_id": "main__deepseek-v4-flash__rep001",
+      "episode_index": 1,
+      "alice_verdict": "accept",
+      "coarse": {
+        "responsibility": {
+          "M": 0.0,
+          "F": 0.5,
+          "R": 0.0
+        },
+        "but_for": {
+          "M": 0,
+          "F": 0,
+          "R": 0
+        },
+        "ablation": {
+          "M": 0.0,
+          "F": 0.688,
+          "R": 0.0
+        },
+        "factual_p": 1.0
+      },
+      "round_ablation": {
+        "r1": 0.0,
+        "r2": 0.0,
+        "r3": 0.062,
+        "r4": 0.0,
+        "r5": 0.0
+      }
+    },
+    {
+      "run_id": "main__deepseek-v4-flash__rep001",
+      "episode_index": 2,
+      "alice_verdict": "accept",
+      "coarse": {
+        "responsibility": {
+          "M": 0.0,
+          "F": 0.0,
+          "R": 0.0
+        },
+        "but_for": {
+          "M": 0,
+          "F": 0,
+          "R": 0
+        },
+        "ablation": {
+          "M": 0.0,
+          "F": 0.0,
+          "R": 0.0
+        },
+        "factual_p": 1.0
+      },
+      "round_ablation": {
+        "r1": 0.0,
+        "r2": 0.0,
+        "r3": 0.0,
+        "r4": 0.0,
+        "r5": 0.0
+      }
+    },
+    {
+      "run_id": "main__deepseek-v4-flash__rep001",
+      "episode_index": 3,
+      "alice_verdict": "accept",
+      "coarse": {
+        "responsibility": {
+          "M": 0.0,
+          "F": 0.0,
+          "R": 0.0
+        },
+        "but_for": {
+          "M": 0,
+          "F": 0,
+          "R": 0
+        },
+        "ablation": {
+          "M": 0.0,
+          "F": 0.0,
+          "R": 0.0
+        },
+        "factual_p": 1.0
+      },
+      "round_ablation": {
+        "r1": 0.0,
+        "r2": 0.0,
+        "r3": 0.0,
+        "r4": 0.0,
+        "r5": 0.0
+      }
+    },
+    {
+      "run_id": "main__deepseek-v4-flash__rep001",
+      "episode_index": 4,
+      "alice_verdict": "accept",
+      "coarse": {
+        "responsibility": {
+          "M": 0.0,
+          "F": 0.0,
+          "R": 0.0
+        },
+        "but_for": {
+          "M": 0,
+          "F": 0,
+          "R": 0
+        },
+        "ablation": {
+          "M": 0.0,
+          "F": 0.0,
+          "R": 0.0
+        },
+        "factual_p": 1.0
+      },
+      "round_ablation": {
+        "r1": 0.0,
+        "r2": 0.0,
+        "r3": 0.0,
+        "r4": 0.0,
+        "r5": 0.0
+      }
+    }
+  ],
+  "aggregate": {
+    "n_episodes": 4,
+    "initiator_top": {
+      "peer": 0,
+      "self": 1,
+      "none": 3
+    },
+    "round_top": {
+      "r1": 0,
+      "r2": 0,
+      "r3": 1,
+      "r4": 0,
+      "r5": 0
+    },
+    "avg_responsibility": {
+      "M": 0.0,
+      "F": 0.125,
+      "R": 0.0
+    }
+  }
+}
